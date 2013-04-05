@@ -1,0 +1,3 @@
+" Rule for next/prev page. (Should written in RegExp)
+set nextpattern+=^NextPage|››$
+set previouspattern+=^PrevPage|‹‹$
