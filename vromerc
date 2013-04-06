@@ -1,3 +1,6 @@
+" Change key mapping in normal mode, please check Vrome Features for available key mapping
+map d D
+
 " Rule for next/prev page. (Should written in RegExp)
 set nextpattern+=^NextPage|››$
 set previouspattern+=^PrevPage|‹‹$
