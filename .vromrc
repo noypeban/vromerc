@@ -3,6 +3,7 @@ map d D
 
 " Rule for next/prev page. (Should written in RegExp)
 set nextpattern+=^NextPage|››$
+set nextpattern+=^\ *次(へ|の|ぺ),^続き,\bnext,^>$,^(>>|&#187;)$,^(>|&#187;|&rsaquo;),(>|&#187;|&rsaquo;)$,\bmore\b,^next\ section
 set previouspattern+=^PrevPage|‹‹$
 
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
