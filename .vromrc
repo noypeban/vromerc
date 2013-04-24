@@ -2,10 +2,10 @@
 map d D
 
 " Rule for next/prev page. (Should written in RegExp)
-set nextpattern+=^NextPage|››$
 set nextpattern+=次へ
-set previouspattern+=^PrevPage|‹‹$
+set nextpattern+=^NextPage|››$
 set previouspattern+=戻る|前へ
+set previouspattern+=^PrevPage|‹‹$
 
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
 set disablesites=mail.google.com, reader.google.com // don’t run Vrome in those sites
