@@ -2,8 +2,7 @@
 map d D
 
 " Rule for next/prev page. (Should written in RegExp)
-set nextpattern+=次へ
-set nextpattern+=^NextPage|››$
+set nextpattern+=^次へ|NextPage|››$
 set previouspattern+=戻る|前へ
 set previouspattern+=^PrevPage|‹‹$
 
