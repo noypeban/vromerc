@@ -4,6 +4,8 @@ unmap l
 unmap h
 map h gT
 map l gt
+unmap gt
+unmap gT
 
 " Rule for next/prev page. (Should written in RegExp)
 set nextpattern=^次へ|NextPage|››$
