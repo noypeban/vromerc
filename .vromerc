@@ -3,8 +3,8 @@ map h gT
 map l gt
 
 " Rule for next/prev page. (Should written in RegExp)
-set nextpattern+=^次へ|Next(Page)?|››$
-set previouspattern+=^前へ|Prev(ious)?(Page)?|‹‹$
+set nextpattern+=^( )?次へ( )?|Next(Page)?|››$
+set previouspattern+=^( )?前へ( )?|Prev(ious)?(Page)?|‹‹$
 
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
 set disablesites=mail.google.com,reader.google.com
