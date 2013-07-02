@@ -8,7 +8,7 @@ unmap gt
 unmap gT
 
 " Rule for next/prev page. (Should written in RegExp)
-set nextpattern=^次へ|NextPage|››$
+set nextpattern=^次へ$
 set previouspattern=^戻る|前へ|PrevPage|‹‹$
 
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
